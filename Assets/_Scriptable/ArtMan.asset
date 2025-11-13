@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec810658681aef64daf163b006389223, type: 3}
+  m_Name: ArtMan
+  m_EditorClassIdentifier: 
+  NPCName: John
+  lines:
+  - Hi there, a warm welcome to our art gallery! My name is John and I am a virtual
+    staff member here, alongside Veronica.
+  - Our art gallery is a great location to host your future art shows, digital exhibitions
+    or live events. Do take a look around to see if this space fits your needs.
+  - My dialogue can be customized and I can be placed anywhere inside the space to
+    talk about your organization and offerings. As virtual staff, I am around 24/7
+    to facilitate an enjoyable experience for every user.
+  - You may click on the magnifying glass on the top right of the art pieces to view
+    more details.
+  - Feel free to take a seat on the benches if you need a short break, and I hope
+    you enjoy your visit.
+  audioClips: []
+  choice: {fileID: 0}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec810658681aef64daf163b006389223, type: 3}
+  m_Name: ExhibWoman
+  m_EditorClassIdentifier: 
+  NPCName: Catherine
+  lines:
+  - Hi there, I'd like to introduce you to our latest product launch, the mahogany
+    leather bag! It's stylish, lightweight and comes with lots of storage compartments
+    for all your needs.
+  - My name is Catherine. I am a virtual staff member of this exhibition hall, alongside
+    Peter.
+  - My dialogue can be customized and I can be placed anywhere inside this space
+    to talk about your company and products. As a virtual staff member, I am around
+    24/7 to facilitate an enjoyable experience for every user that visits.
+  - Feel free to check out the other products on display, and I hope you enjoy your
+    visit.

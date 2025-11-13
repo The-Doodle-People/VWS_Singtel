@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec810658681aef64daf163b006389223, type: 3}
+  m_Name: ArtWoman
+  m_EditorClassIdentifier: 
+  NPCName: Veronica
+  lines:
+  - Hello and welcome to our art gallery! My name is Veronica and I am a virtual
+    staff member here, alongside John.
+  - Our gallery features a variety of digital paintings, sculptures and videos. All
+    of the content here is placeholder and can be replaced or personalized.
+  - My dialogue can also be customized and I can be placed anywhere inside the space
+    to talk about your organization and offerings. As virtual staff, I am around
+    24/7 to facilitate an enjoyable experience for every user.
+  - Do check out the art pieces on display, and I hope you enjoy your visit.
+  - You may click on the magnifying glass on the top right of the art pieces to view
+    more details.
+  audioClips: []
+  choice: {fileID: 0}

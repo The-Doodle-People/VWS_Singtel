@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec810658681aef64daf163b006389223, type: 3}
+  m_Name: ExhibMan
+  m_EditorClassIdentifier: 
+  NPCName: Peter
+  lines:
+  - Hello and welcome to our exhibition hall! My name is Peter and I am a virtual
+    staff member here, alongside Catherine.
+  - You can use our exhibition hall to showcase your products, whether it's lifestyle,
+    food or electronics. The space is currently designed as a fashion showroom, but
+    it can be adjusted to fit your needs.
+  - My dialogue can also be customized and I can be placed anywhere inside the space
+    to talk about your company and products. As virtual staff, I am around 24/7 to
+    facilitate an enjoyable experience for every user.
+  - Do check out the teleporters we added in to help you move around the space. I
+    hope you enjoy your visit.
