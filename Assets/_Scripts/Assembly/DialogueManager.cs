@@ -27,7 +27,7 @@ public class DialogueManager : MonoBehaviour
 
 		//set UI
 		transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = currentDialogue.NPCName;
-		transform.GetChild(0).GetComponent<TMP_Text>().text = currentDialogue.lines[index];
+		transform.GetChild(0).GetComponent<TMP_Text>().text = ReplaceVariable(currentDialogue.lines[index]);
 
 		//get audio source
 		if (audio == null)
@@ -45,6 +45,12 @@ public class DialogueManager : MonoBehaviour
 		}
 
 		DialogueStarted?.Invoke();
+	}
+
+	public string ReplaceVariable(string line)
+	{
+		line = line.Replace("{name}", NameRequest.userName);
+		return line;
 	}
 
 	public void NextLine()
