@@ -865,11 +865,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 
+  cloudProjectId: 5eef2cde-dec9-4b96-ab5e-54c4c4e2bab2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: VWS_Singtel
+  organizationId: fionalivianti12
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
