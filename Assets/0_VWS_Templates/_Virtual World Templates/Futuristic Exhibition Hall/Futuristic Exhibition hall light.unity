@@ -22683,7 +22683,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 988468024}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1014651827}
+        m_TargetAssemblyTypeName: ScrollScreen, CreatorToolkitCustomScripts
+        m_MethodName: NextPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &988468024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23592,6 +23604,7 @@ GameObject:
   - component: {fileID: 1014651824}
   - component: {fileID: 1014651826}
   - component: {fileID: 1014651825}
+  - component: {fileID: 1014651827}
   m_Layer: 5
   m_Name: TabletPanel
   m_TagString: Untagged
@@ -23661,6 +23674,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014651823}
   m_CullTransparentMesh: 1
+--- !u!114 &1014651827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014651823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de88302d11c1f044ea64c7365bad84e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backButton: {fileID: 1698847735}
+  nextButton: {fileID: 988468021}
+  parentObject: {fileID: 2094129479}
 --- !u!1001 &1019859380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35338,7 +35366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1698847736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35402,7 +35430,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1698847738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1014651827}
+        m_TargetAssemblyTypeName: ScrollScreen, CreatorToolkitCustomScripts
+        m_MethodName: PreviousPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1698847738
 MonoBehaviour:
   m_ObjectHideFlags: 0
